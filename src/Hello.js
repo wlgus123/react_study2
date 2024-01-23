@@ -8,7 +8,7 @@ function Hello({ color, name, isSpecial }) { // 더 간단하게 작성할 수 �
                 isSpecial ? <b>*</b> : null } */}
 
             {  // 2. && 연산자를 사용한 isSpecial처리 (더 간편함)
-                isSpecial && <b>*</b> }
+                isSpecial && <b>*</b>}
             Hello, {name}
         </div>
     );
